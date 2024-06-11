@@ -1,0 +1,18 @@
+:where(.css-dev-only-do-not-override-1okl62o).ant-table-wrapper
+  .ant-table-thead
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-1okl62o).ant-table-wrapper
+  .ant-table-thead
+  > tr
+  > td {
+  background-color: hsl(0, 0%, 64%, 40%);
+  border-radius: 0;
+}
+tbody > tr:nth-child(odd) {
+  background-color: hsl(0, 0%, 64%, 20%);
+} 
+
+.sb-hide::-webkit-scrollbar {
+  display: none;
+}
